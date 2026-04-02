@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Health Risk Predictor</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>AI Health Risk Predictor</h1>
+<div class="form">
+<label>Sleep Hours</label>
+<input type="number" id="sleep">
+<label>Exercise Minutes</label>
+<input type="number" id="exercise">
+<label>Junk Food Frequency</label>
+<input type="number" id="junk">
+<label>Stress Level (1-10)</label>
+<input type="number" id="stress">
+<button type="button" onclick="predict()">Predict Risk</button>
+<h2 id="result"></h2>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
